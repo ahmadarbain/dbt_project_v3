@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+    - name: staging
+      #For bigquery:
+      #database: taxi-rides-ny-339813
+
+      # For postgres:
+      database: bionic-kiln-342115
+
+      schema: ny_trips_data
+
+      # loaded_at_field: record_loaded_at
+      tables:
+        - name: ny_green_tripdata
+        - name: ny_yellow_tripdata
