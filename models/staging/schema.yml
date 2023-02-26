@@ -14,6 +14,7 @@ sources:
       tables:
         - name: ny_green_tripdata
         - name: ny_yellow_tripdata
+        - name: external_fhv_tripdata
 
 models:
     - name: stg_green_tripdata
